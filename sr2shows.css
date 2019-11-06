@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    align-content: center;
+    background-color: black;
+}
+
+.title{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.title h1{
+    font-size: 10px;
+    font-family: monospace;
+    color: blanchedalmond;
+}
+
+.menu{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    display: inline;
+}
+
+.menu a:link{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+.menu a:visited{
+    color: blanchedalmond;
+}
+
+.menu a:hover{
+    color: black;
+    background-color: blanchedalmond;
+    font-style: italic;
+}
+
+.main h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    color: blanchedalmond;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.footer{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+
+.esrs{
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.esrs img{
+    width: 50px;
+}
+
+.footext{
+    display: inline-block;
+    color: blanchedalmond;
+    font-family: monospace;
+    text-align: left;
+}
+
+.footext a:link{
+    text-decoration: underline;
+    color: blanchedalmond;
+}
+
+.footext a:visited{
+    color: blanchedalmond;
+}
+
+.footext a:hover{
+    color: black;
+    background-color: blanchedalmond;
+    font-style: italic;
+}
