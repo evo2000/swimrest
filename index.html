@@ -15,9 +15,10 @@
     
         <title>Swim Rest</title>
         <meta name="google" content="notranslate">
-        <link href="sr2home.css" rel="stylesheet">
         <link rel="icon" href="favicon.png" sizes="32x32" type="image/png">
-    
+        <link rel="stylesheet" href="sr2.css">
+        <script src="vino.js"></script>
+        <script src="app.js"></script>
     </head>
     
     <body>
@@ -54,35 +55,15 @@
         <div class="menu">
         
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sr2disc.html">Discography</a></li>
-                <li><a href="sr2shows.html">Shows</a></li>
-                <li><a href="sr2shop.html">Shop</a></li>
+                <li><a href="#main" onclick="display('main')">Home</a></li>
+                <li><a href="#disc" onclick="display('disc')">Discography</a></li>
+                <li><a href="#shows" onclick="display('shows')"">Shows</a></li>
+                <li><a href="#shop" onclick="display('shop')">Shop</a></li>
             </ul>
         
         </div>
+        <div id="$vino" vino-default="main"></div>
         
-        <div class="main">
-            
-            <div class="photo">
-                <img src="main.jpg">
-            </div>
-            
-            <div class="contact">
-                
-                <ul>
-                    <li class="sp"><a href="#">Spotify</a></li>
-                    <li class="am"><a href="#">Apple Music</a></li>
-                    <li class="so"><a href="#">Soundcloud</a></li>
-                    <li class="ba"><a href="#">Bandcamp</a></li>
-                    <li class="ig"><a href="#">Instagram</a></li>
-                    <li class="fb"><a href="#">Facebook</a></li>
-                    <li class="em"><a href="#">swimrest@gmail.com</a></li>
-                </ul>
-                
-            </div>
-        
-        </div>
         
         <div class="footer">
             
